@@ -1,24 +1,59 @@
-h1 {
-  background-color: grey;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin: 0;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  text-decoration: none;
+body {
+  background-color: #242424;
+  font-family: "Science Gothic", sans-serif;
 }
-button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+
+.container-counter {
+  background-color: rgba(10, 78, 155, 0.557);
+  border-radius: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
   cursor: pointer;
-  border-radius: 5px;
-  margin-bottom: 10px;
+}
+
+.increment {
+  background-color: rgba(55, 196, 55, 0.815);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.decrement {
+  background-color: rgba(196, 55, 55, 0.815);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.reset {
+  background-color: rgba(19, 19, 19, 0.815);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
 }
